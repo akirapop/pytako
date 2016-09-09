@@ -1,0 +1,16 @@
+## Sun
+##
+## Interpolation parameters for "RP" -- the distance
+## from the Sun -- as found in ## Van Flandern and Pulkkinen, 
+## Ap J. Supp., 41:391 (1979).
+##
+## Obviously, for the case of the sun itself, the distance
+## is the distance from the earth
+##
+
+#                   #1       #5       #7   #8   #13   #16   #19
+TrigSeriesTerms     L_M    OmegaM    L_S   G_S   G2    G4   G5
+
+ 1.00014  0 cos  0  0  0  0  0  0  0
+-0.01675  0 cos  0  0  0  1  0  0  0
+-0.00014  0 cos  0  0  0  2  0  0  0

@@ -1,0 +1,73 @@
+
+ 00-Readme.BUILDING          -  instructions on how to build the packaged
+   
+ ============
+ Python files
+ ============
+
+new_tako1.py                 -  This is the 'main' program, run on the command line
+
+Constraint.py
+CoordinateTransforms_py3.py
+Py_Tako.py
+SSOtable_py3.py
+Target.py
+TargetSun_py3.py
+dateTools_py3.py
+generic_py3.py
+list_boxes.py
+setup_sched_py3.py
+solarSystem_py3.py
+
+ =======
+ C files
+ =======
+
+Py_Sched.c
+_Py_Attitude.c
+_Py_Orbit.c
+_Py_SolarSystem.c
+attitude_wrappers.c
+attitude_wrappers.h
+cache.c
+cache.h
+memory.c
+memory.h
+misc_at_utilities.c
+misc_at_utilities.h
+orbit_wrappers.c
+orbit_wrappers.h
+solar_system_wrappers.c
+solar_system_wrappers.h
+
+ ========================
+ Miscellaneous data files
+ ========================
+
+ ae2_orbit.dat               -  an example orbit file
+
+ The files below are all needed (in the directory SolarSystemVanFlandern/ )
+by the solarSystem_py3.py routines.
+
+SolarSystemVanFlandern:
+VanFlandern-Pulkkinen.Fundamental_Arguments
+jupiterRadius
+jupiterUVW
+marsRadius
+marsUVW
+mercuryRadius
+mercuryUVW
+moonRadius
+moonUVW
+neptuneRadius
+neptuneUVW
+plutoRadius
+plutoUVW
+saturnRadius
+saturnUVW
+sunRadius
+sunUVW
+uranusRadius
+uranusUVW
+venusRadius
+venusUVW

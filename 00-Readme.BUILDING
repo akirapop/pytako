@@ -1,0 +1,33 @@
+
+
+*** The tool requires both the atFunctions & cfitsio libraries to build, both of which should be available
+    locally and so are not included. 
+
+    (The atFunctions ought to be version 3.3. Any version of cifitsio ought to work.)
+
+
+------------------
+setup_sched_py3.py
+------------------
+
+ -- change include_dirs=['/net/share/adsoft/atFunctions/3.3/include'] to point to the location of the atFunctions
+    header files: atError.h, atFunctions.h,  and atSpline.h
+
+ -- change library_dirs=['/net/share/adsoft/atFunctions/3.3/linux','/home/baluta/lib/'] to point to the
+    locations of the atfunctions and cfitsio libraries.  (libatFunctions.a & libcfitsio.a)
+
+
+ Once these changes have been made:  python setup_sched_py3.py install --home=./
+ ** python must be a version 3.4 (other 3.x versions *might* be ok.)
+
+
+------------
+new_tako1.py
+------------
+
+  This is the 'main' program. Change the top line from #!/home/baluta/bin/python3
+to point to the location of your version of python (python3!).
+
+
+
+

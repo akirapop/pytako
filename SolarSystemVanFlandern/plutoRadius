@@ -1,0 +1,15 @@
+## Pluto
+##
+## Interpolation parameters for "RP" -- the distance
+## from the Sun -- as found in ## Van Flandern and Pulkkinen, 
+## Ap J. Supp., 41:391 (1979).
+##
+
+#                  #31   #32   #33    #7
+TrigSeriesTerms     L9    G9    F9   L_S
+
+40.74638  0  cos  0  0  0  0
+-9.58235  0  cos  0  1  0  0
+-1.16703  0  cos  0  2  0  0
+-0.22649  0  cos  0  3  0  0
+-0.04996  0  cos  0  4  0  0
